@@ -1,1 +1,3 @@
-# vc_notification_bot
+# VC Notification
+
+This notifies the start of Discord calls.
