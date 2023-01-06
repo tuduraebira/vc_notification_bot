@@ -17,11 +17,12 @@ Discord の bot をあらかじめ作成し、トークンを取得しておい�
 2. New Project → Import from Github を選択し、このリポジトリでの **HTTPS** の URL（ https://github.com/tuduraebira/vc_notification_bot.git ）を入力します。
 3. ファイルの中にある ".env" に、Discord のトークン、テキストチャンネルの ID、ボイスチャンネルの ID を次のように設定します。
 
-|          変数名          |         値の内容          |
-| :----------------------: | :-----------------------: |
-|    DISCORD_BOT_TOKEN     | Discord の bot のトークン |
-|     TEXT_CHANNEL_ID      |  テキストチャンネルの ID  |
-| VOICE_CHANNEL_ID（任意） |   ボイスチャンネルの ID   |
+|          変数名           |             値の内容             |
+| :-----------------------: | :------------------------------: |
+|     DISCORD_BOT_TOKEN     |    Discord の bot のトークン     |
+|      TEXT_CHANNEL_ID      |     テキストチャンネルの ID      |
+|     VOICE_CHANNEL_ID      |      ボイスチャンネルの ID       |
+| VOICE_CHANNEL2_ID（任意） | ボイスチャンネル 2 の ID（任意） |
 
 4. "code.js" の中にある、"voiceChannelIds" の中身を 3. で設定した変数名に変更してください。
 5. Share ボタンから Live site の URL をコピーしメモしておきます。
