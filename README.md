@@ -15,7 +15,7 @@ Discord の bot をあらかじめ作成し、トークンを取得しておい�
 
 1. [Glitch](https://glitch.com)にアクセスし、アカウントを作成します。
 2. New Project → Import from Github を選択し、このリポジトリでの **HTTPS** の URL（ https://github.com/tuduraebira/vc_notification_bot.git ）を入力します。
-3. ファイルの中にある ".env" に、Discord のトークン、テキストチャンネルの ID、ボイスチャンネルの ID を次のように設定します。
+3. ファイルの中にある ".env" に、Discord のトークン、テキストチャンネルの ID、ボイスチャンネルの ID （いくつでも可）を次のように設定します。
 
 |          変数名           |             値の内容             |
 | :-----------------------: | :------------------------------: |
@@ -36,3 +36,8 @@ Discord の bot をあらかじめ作成し、トークンを取得しておい�
 5. 左のサイドバーにあるトリガーを選択し、トリガーを追加を押します。
 6. "時間ペースのトリガーのタイプを選択" の部分を "分ベースのタイマー"、"時間の間隔を選択"を "5 分おき" 程度にし、保存します。
 7. アカウントのアクセスを許可すれば完了です。
+
+## 参考
+
+- [discord.js | Documentation](https://discord.js.org/#/docs/discord.js/main/general/welcome)
+- [Discord.js Japan User Group](https://scrapbox.io/discordjs-japan/)
